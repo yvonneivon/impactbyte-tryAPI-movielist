@@ -1,0 +1,86 @@
+html {
+  background-image: url(/assets/img/sign-up.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-color: #6d1a6d;
+  background-blend-mode: hard-light;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 12.5px 50px 12.5px;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.mainDiv {
+  background-color: #DDDDDD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+.textSignIn {
+  font-size: 60px;
+  margin: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #6d1a6d;
+}
+
+.formCSS {
+  background-color: #DDDDDD;
+  height: 300px;
+}
+
+.inputCSS {
+  max-width: 100%;
+  width: 200px;
+  max-height: 100%;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 18px;
+  border: none;
+  text-align: center;
+  margin: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.buttonCSS {
+  font-size: 16px;
+  border-radius: 18px;
+  border: none;
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+  max-width: 80px;
+  height: 30px;
+  max-height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #6d1a6d;
+  color: #DDDDDD;
+  cursor: pointer;
+}
+
+.signUp {
+  font-size: 16px;
+  margin: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/*# sourceMappingURL=signup.css.map */

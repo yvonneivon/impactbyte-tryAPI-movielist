@@ -1,0 +1,83 @@
+@mixin formatInput {
+    font-size: 16px;
+    border-radius: 18px;
+    border: none;
+    text-align: center;   
+    margin: 10px;
+}
+
+@mixin forFontJosefin {
+    font-family: 'Josefin Sans', sans-serif;    
+}
+
+@mixin forFontVarela {
+    font-family: 'Varela Round', sans-serif;  
+}
+html {
+    background-image: url(/assets/img/sign-up.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    background-color: rgb(109, 26, 109);
+    background-blend-mode: hard-light;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 50px 12.5px 50px 12.5px;
+    opacity: 0.9;
+    margin: 0;
+}
+
+.mainDiv {
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+
+.textSignIn {
+    font-size: 60px;
+    margin: 10px;
+    @include forFontJosefin;
+    color: rgb(109, 26, 109);
+}
+
+.formCSS {
+    background-color: #DDDDDD;
+    height: 300px;  
+}
+
+.inputCSS {
+    max-width: 100%;
+    width: 200px;
+    max-height: 100%;
+    height: 40px;
+    @include formatInput;
+    @include forFontJosefin;
+}
+
+.buttonCSS {
+    @include formatInput;
+    width: 100%;
+    max-width: 80px;
+    height: 30px;
+    max-height: 100%;
+    @include forFontJosefin;
+    background-color: rgb(109, 26, 109);
+    color: #DDDDDD;
+    cursor: pointer;
+}
+
+.signUp {
+    font-size: 16px;
+    margin: 15px;
+    @include forFontJosefin;
+}

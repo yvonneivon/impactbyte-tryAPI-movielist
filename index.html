@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/login.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="mainForm">
+            <div class="textSignIn">Sign In</div>
+            <div class="formCSS">
+                <form action="./mainPage.html" method="post">
+                    <input class="inputCSS" type="text" id="username" name="username" 
+                    placeholder="Username or e-mail" maxlength="32" minlength="3" required><br>
+
+                    <input class="inputCSS" type="password" id="pwd" name="pwd" 
+                    placeholder="Password" minlength="8" required>
+                    <br />
+                    <button class="buttonCSS" type="submit">Ready?</button>
+                </form>
+            </div>
+            <div class="signUp">Don't have an account?
+                <a href="./signUp.html">Sign up</a> for free!</div>
+        </div>
+    </div>
+    
+    <!-- JavaScript-->
+    <script src="./assets/js/login.js"></script>
+</body>
+</html>
