@@ -13,6 +13,7 @@
 @mixin forFontVarela {
     font-family: 'Varela Round', sans-serif;  
 }
+
 html {
     background-image: url(/assets/img/sign-up.jpg);
     background-repeat: no-repeat;
@@ -41,6 +42,7 @@ body {
     height: auto;
     border-radius: 20px;
     padding-top: 30px;
+    box-shadow: 0px 0px 30px #ed9ed5;
 }
 
 .textSignIn {
@@ -76,6 +78,11 @@ body {
     cursor: pointer;
 }
 
+.buttonCSS:hover {
+    color: #DDDDDD;
+    background-color: rgb(150, 97, 150);
+}
+  
 .signUp {
     font-size: 16px;
     margin: 15px;
